@@ -1,0 +1,47 @@
+:root {
+  --flow-space-title: 3.75vh;
+  --flow-space-main: 9.6vh;
+  --flow-space-form: 3.59vh;
+  --flow-space-fieldset: 2.40vh;
+  --flow-space-terms: 1.20vh;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background-image: url(../public/images/bg-intro-mobile.png);
+  @apply bg-red-100
+}
+
+main {
+  padding-top: 13.20vh;
+  padding-left: 6.4vw;
+  padding-right: 6.4vw;
+  padding-bottom: 10.20vh;
+}
+
+.flow__title > * + * {
+  margin-top: var(--flow-space-title, 1em);
+}
+
+.flow__main > * + * {
+  margin-top: var(--flow-space-main, 1em);
+}
+
+.flow__form > * + * {
+  margin-top: var(--flow-space-form, 1em);
+}
+
+[data-type="top"] {
+  margin-top: var(--flow-space-fieldset, 1em);
+}
+
+[data-type="top-terms"] {
+  margin-top: var(--flow-space-terms, 1em);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
+
