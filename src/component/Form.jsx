@@ -7,7 +7,7 @@ const Form = () =>{
   const block_drop_shadow = 'shadow-premiun-shadow'
 
   const global_form = 'w-[100%] bg-white rounded-[10px] p-[6.4vw]'
-  const global_form_xl = 'xl:w-[37.5vw] p-[2.78vw]'
+  const global_form_xl = 'xl:w-[37.5vw] xl:p-[2.78vw]'
   const global_input = 'border border-grey-100 w-[100%] min-h-[56px] rounded-[5px] px-[5.07vw] text-[14px] font-semibold tracking-[0.25px] text-grey-200'
   const global_input_xl = 'xl:px-[2.22vw]'
   const global_placeholder = 'placeholder-grey-200 placeholder:text-[14px] placeholder:tracking-[0.25px] placeholder:font-semibold placeholder:opacity-70'
