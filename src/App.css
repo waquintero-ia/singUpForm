@@ -4,6 +4,7 @@
   --flow-space-form: 3.59vh;
   --flow-space-fieldset: 2.40vh;
   --flow-space-terms: 1.20vh;
+  --width-padding-mobile: 2.78vw;
 }
 
 body {
@@ -40,6 +41,28 @@ main {
   margin-top: var(--flow-space-terms, 1em);
 }
 
+@media (min-width: 80rem) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .flow__main > * + * {
+    margin-top: 0;
+  }
+
+  [data-type="top"] {
+    margin-top: var(2.5vh, 1em);
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
 
