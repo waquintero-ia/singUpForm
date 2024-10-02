@@ -54,9 +54,9 @@ const Form = () =>{
     <>
       <article className="flow__form">
         <div className={`premiun ${global_premiun} ${composition_premiun} ${utilities_text} ${utilities_flex} ${block_drop_shadow} ${global_premiun_xl}`}>
-          <p>
+          <h2>
             <span className={`font-bold`}>Try it free 7 days</span> then $20/mo. thereafter
-          </p>
+          </h2>
         </div>
         <form className={`form ${global_form} ${block_drop_shadow} ${global_form_xl}`} id="myForm" onSubmit={formik.handleSubmit}>
           <fieldset >
