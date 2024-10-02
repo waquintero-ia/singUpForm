@@ -10,7 +10,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background-image: url(../public/images/bg-intro-mobile.png);
+  background-image: url(/images/bg-intro-mobile.png);
   @apply bg-red-100
 }
 
