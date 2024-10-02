@@ -18,6 +18,11 @@ export default {
         'premiun-shadow': '0 8px 0 rgba(0, 0, 0, 0.1469)',
         'button-shadow': '0 4px 0 rgba(0, 0, 0, 0.0909)',
       },
+      fontSize:{
+        15: '0.9375rem',
+        14: '0.875rem',
+        11: '0.6875rem',
+      },
     },
   },
   plugins: [],

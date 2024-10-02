@@ -1,7 +1,7 @@
 const Form = () =>{
   const global_premiun = 'w-[100%] min-h-[13.20vh] rounded-[10px] bg-purple-100 px-[17.87vw]'
   const global_premiun_xl = 'sm:w-[37.5vw] sm:px-0 sm:min-h-[7.5vh] sm:px-[0.88vw] sm:py-[0.88vw]'
-  const composition_premiun = 'text-[15px] leading-[174%] tracking-[0.27px]'
+  const composition_premiun = 'text-15 leading-[174%] tracking-[0.27px]'
   const utilities_text = 'text-white text-center'
   const utilities_flex = 'flex justify-center items-center'
   const block_drop_shadow = 'shadow-premiun-shadow'
@@ -10,9 +10,9 @@ const Form = () =>{
   const global_form_xl = 'sm:w-[37.5vw] sm:p-[2.78vw]'
   const global_input = 'border border-grey-100 w-[100%] min-h-[56px] rounded-[5px] px-[5.07vw] text-[14px] font-semibold tracking-[0.25px] text-grey-200'
   const global_input_xl = 'sm:px-[2.22vw]'
-  const global_placeholder = 'placeholder-grey-200 placeholder:text-[14px] placeholder:tracking-[0.25px] placeholder:font-semibold placeholder:opacity-70'
-  const global_button = 'w-[100%] min-h-[56px] bg-green-100 rounded-[5px] uppercase text-[15px] font-semibold text-white tracking-[0.9px]'
-  const global_terms = 'text-[11px] leading-[191%] text-center text-grey-300 w-[90%] mx-auto'
+  const global_placeholder = 'placeholder-grey-200 placeholder:text-14 placeholder:tracking-[0.25px] placeholder:font-semibold placeholder:opacity-70'
+  const global_button = 'w-[100%] min-h-[56px] bg-green-100 rounded-[5px] uppercase text-15 font-semibold text-white tracking-[0.9px]'
+  const global_terms = 'text-11 leading-[191%] text-center text-grey-300 w-[90%] mx-auto'
   const global_terms_xl = 'sm:w-[100%]'
   const block_drop_shadow_button = 'shadow-button-shadow'
 

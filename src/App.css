@@ -22,7 +22,7 @@ main {
 }
 
 .title {
-  font-size: clamp(28px, 5vw ,50px);
+  font-size: clamp(1.75rem, 5vw , 3.125rem);
 }
 
 .flow__title > * + * {
