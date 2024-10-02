@@ -1,10 +1,10 @@
 const Title = () =>{
-  const composition_h1 = 'text-[28px] font-bold -trancking-[0.29px] leading-[128.57%]'
-  const composition_h1_xl = 'xl:text-[50px] xl:leading-[110%] xl:tracking-[-0.52px]'
+  const composition_h1 = 'font-bold -trancking-[0.29px] leading-[128.57%]'
+  const composition_h1_xl = 'sm:leading-[110%] sm:tracking-[-0.52px]'
   const composition_p = 'font-medium leading-[162.5%]'
   const utilities_text = 'text-white text-center'
-  const utilities_text_xl = 'xl:text-left'
-  const composition_container_xl = 'xl:w-[36.46vw] xl:mr-[3.125vw]'
+  const utilities_text_xl = 'sm:text-left'
+  const composition_container_xl = 'sm:w-[36.46vw] sm:mr-[3.125vw]'
   return(
     <>
       <article className={`container flow__title ${composition_container_xl}`}>

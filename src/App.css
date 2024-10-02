@@ -21,6 +21,10 @@ main {
   padding-bottom: 10.20vh;
 }
 
+.title {
+  font-size: clamp(28px, 5vw ,50px);
+}
+
 .flow__title > * + * {
   margin-top: var(--flow-space-title, 1em);
 }
@@ -41,7 +45,7 @@ main {
   margin-top: var(--flow-space-terms, 1em);
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 40rem) {
   body {
     display: flex;
     justify-content: center;
