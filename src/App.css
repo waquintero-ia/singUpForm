@@ -59,6 +59,10 @@ main {
     margin-top: 0;
   }
 
+  .flow__form > * + * {
+    margin-top: 3vh;
+  }
+
   [data-type="top"] {
     margin-top: var(2.5vh, 1em);
   }

@@ -12,8 +12,11 @@ const Form = () =>{
   const global_input_xl = 'xl:px-[2.22vw]'
   const global_placeholder = 'placeholder-grey-200 placeholder:text-[14px] placeholder:tracking-[0.25px] placeholder:font-semibold placeholder:opacity-70'
   const global_button = 'w-[100%] min-h-[56px] bg-green-100 rounded-[5px] uppercase text-[15px] font-semibold text-white tracking-[0.9px]'
+  const global_terms = 'text-[11px] leading-[191%] text-center text-grey-300 w-[90%] mx-auto'
+  const global_terms_xl = 'xl:w-[100%]'
   const block_drop_shadow_button = 'shadow-button-shadow'
-  
+
+
   return(
     <>
       <article className="flow__form">
@@ -36,8 +39,8 @@ const Form = () =>{
               <button className={`${global_button} ${block_drop_shadow_button}`} type="submit" data-type="top">
                 Claim your free trial
               </button>
-              <p className="terms text-[11px] leading-[191%] text-center text-grey-300" data-type="top-terms">
-                By clicking the button, you are agreeing to<br/> our <span className="font-bold text-red-100">Terms and Services</span> 
+              <p className={`terms ${global_terms} ${global_terms_xl}`} data-type="top-terms">
+                By clicking the button, you are agreeing to our <span className="font-bold text-red-100">Terms and Services</span> 
               </p>
           </fieldset>
         </form>
