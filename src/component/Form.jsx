@@ -14,6 +14,7 @@ const Form = () =>{
   const global_button = 'w-[100%] min-h-[56px] bg-green-100 rounded-[5px] uppercase text-15 font-semibold text-white tracking-[0.9px]'
   const global_terms = 'text-11 leading-[191%] text-center text-grey-300 w-[90%] mx-auto'
   const global_terms_xl = 'sm:w-[100%]'
+  const global_terms_span = 'font-bold text-red-100'
   const block_drop_shadow_button = 'shadow-button-shadow'
 
 
@@ -40,7 +41,7 @@ const Form = () =>{
                 Claim your free trial
               </button>
               <p className={`terms ${global_terms} ${global_terms_xl}`} data-type="top-terms">
-                By clicking the button, you are agreeing to our <span className="font-bold text-red-100">Terms and Services</span> 
+                By clicking the button, you are agreeing to our <span className={`${global_terms_span}`}>Terms and Services</span> 
               </p>
           </fieldset>
         </form>
