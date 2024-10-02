@@ -93,7 +93,7 @@ const Form = () =>{
               </p>
               <label className="sr-only" htmlFor="password">Password</label>
               <div className="container__input relative">
-                <input className={`${global_input} ${global_placeholder} ${global_input_xl} ${formik.errors.email && formik.touched.email && formik.errors.email && utilities_input_error }`} type="password" id="password" name="password" placeholder="Password" autoComplete="password" data-type="top" value={formik.values.password} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
+                <input className={`${global_input} ${global_placeholder} ${global_input_xl} ${formik.errors.email && formik.touched.email && formik.errors.email && utilities_input_error }`} type="password" id="password" name="password" placeholder="Password" data-type="top" value={formik.values.password} onChange={formik.handleChange} onBlur={formik.handleBlur}/>
                 { formik.errors.password && formik.touched.password && formik.errors.password && 
                   <img className={`${utilities_icon_error}`} src="./images/icon-error.svg" alt="exclamation mark" />
                 }
